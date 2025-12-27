@@ -1,0 +1,32 @@
+body {
+  background-color: red;
+}
+
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*footer*/
+.seccion_footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(248, 245, 245);
+}
+.seccion_footer ul{
+  list-style: none;
+}
+.seccion_footer ul li img{
+ height: auto;
+width: 2em;
+height: 2em;
+}
+.img_redes{
+    display: flex;          
+    justify-content: center; 
+    gap: 1rem;               
+    padding: 1rem 0; 
